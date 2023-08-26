@@ -3,7 +3,7 @@ function Card(props){
   debugger
  let icon= props.price >= 9? `fa-solid fa-check`:`fa-solid fa-xmark`
  let icon1=props.price ==49?`fa-solid fa-check`:`fa-solid fa-xmark`
-    return <div style={{border:" 5 px solid rgb(28, 151, 233)",
+    return <div style={{
          width:"300px",textAlign:"initial",padding:"20px",backgroundColor:"white",}}>
            <div style={{textAlign:"center"}}><h5>{props.type}</h5>
             <h2>${props.price}/month</h2></div>
